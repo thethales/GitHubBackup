@@ -6,9 +6,9 @@ Yet another backup script for GitHub repositories.
 
 Downloads every repository under a user's name using GitHub API in a very lazy manner:
 
-* https://api.github.com/users/<user_name>/repos *
+*https://api.github.com/users/<user_name>/repos*
 
-The configuration parameters are set up on the [config file](config_file_sample/config.json), that should be located alongide the backup script.
+The configuration parameters are set up on the [config file](config_file_sample/config.json), that should be located alongside the backup script.
 
 
 ## Why ?

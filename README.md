@@ -13,16 +13,18 @@ The configuration parameters are set up on the [config file](config_file_sample/
 
 ## Why ?
 
-Whilst open source for all intent and porpuses rocks! The companies that support them need a source of income and are a bound by the laws and politics of their respective countries. In a hipotetical scenario where repositories are no longer acessible for any reason, I would like to be able o revert to a alternaive backup howver simple is may be.
+Whilst open source for all intent and porpuses rocks! The companies that support them need a source of income and are a bound by the laws and politics of their respective countries. In a hipotetical scenario where repositories are no longer acessible for any reason, I would like to be able o revert to a alternaive backup source however simple it may be.
 With that in mind, I needed a simple script that could be run before my pre exising backup solution and that could be written very fast wihout much trouble. The plan is to add as many functions as possible as soon as they are needed.
 
 ## Prerequisites
 
-Install Pyhon Wget library
+1. Install Pyhon Wget library
 ```
 pip install wget
 ```
-Set up the config JSON file with your custom parameters copying the file under [config_file_sample](config_file_sample/config.json) to the same folder of the script
+2. Copy the file script [gitbackup.py](gitbackup.py) 
+
+3. Set up the config JSON file with your custom parameters copying the file under [config_file_sample](config_file_sample/config.json) to the same folder of the script
 
 ```JSON
 {

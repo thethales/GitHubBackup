@@ -18,7 +18,7 @@ With that in mind, I needed a simple script that could be run before my pre exis
 
 ## Prerequisites
 
-1. Install Pyhon Wget library
+1. Install Python Wget library
 ```
 pip install wget
 ```
